@@ -1,10 +1,10 @@
 import Moviecard from "./Moviecard"
 
-const Movielist = () => {
+const Movielist = ({movieList}) => {
   return (
-    <div>
+    <div className="movielist">
       <h1 style={{margin: "14px 0",color: "white"}}>New Release</h1>
-      <Moviecard/>
+      <Moviecard movieList={movieList}/>
     </div>
   )
 }
