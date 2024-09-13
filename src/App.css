@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Reddit Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#root{
+  background: #192026;
+}
+
+.movie-shop {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color:  #868686;
+
+  };
+
+  input {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #374151;
+    color:  #868686;
+  };
+  padding: 24px 0;
+}
+
+
+
+.banner {
+  width: 80%;
+  color: white;
+}
+
+
+.banner p {
+  margin: 24px 0;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  position: absolute;
+  background-color: hide;
+  bottom: 0;
+  padding: 24px;
+  z-index: 2;
+  color: white;
+}
+
+
+.movielist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.movieitem {
+  width: 170px;
+  height: 300px;
+  text-align: center;
+  color: white;
+}
