@@ -3,7 +3,7 @@ import Moviecard from "./Moviecard"
 const Movielist = () => {
   return (
     <div>
-      <h1>New Release</h1>
+      <h1 style={{margin: "14px 0",color: "white"}}>New Release</h1>
       <Moviecard/>
     </div>
   )

@@ -62,7 +62,7 @@ const Moviecard = () => {
         {movieList.map(({id, movieName, description, image, episode}) => (
             <div className='movieitem' key={id}>
                 <img src={image} alt="this img" />
-                <p>{episode}</p>
+                <p>episode {episode}</p>
                 <h6>{movieName}</h6>
             </div>
         ))}        
